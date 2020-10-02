@@ -53,21 +53,18 @@ inquirer
             message: "What is your email address?",
             name: "email"
         } 
-    ]);
 
-// function to write README file
-fs.writeFile("README.md", data) {
-    if(err){
-        console.log(err);
-    } else {
-        console.log("Success!");
-    }
-};
+        ]).then(answers => {
+            const {title, description, installation, usage, license, contributing, tests, username, email} = answers;
+        
+    const readmeFile = '# ${title}';
 
-// function to initialize program
-function init() {
 
-};
-
-// function call to initialize program
-init();
+    fs.writeFile("README.md", readmeFile, data) {
+        if(err) {
+            console.log(err);
+        } else {
+            console.log("Success!");
+        }
+    };
+});
