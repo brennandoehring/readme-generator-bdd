@@ -32,7 +32,7 @@ inquirer
             choices: [
                 "MIT",
                 "Apache License 2.0",
-                "ISC"
+                "Mozilla Public License 2.0"
             ]  
         },
         {
@@ -58,7 +58,7 @@ inquirer
 
         ]).then(answers => {
             const {title, description, installation, usage, license, contributing, tests, username, email} = answers;
-
+        
     const newFile = generateReadMe({...answers});
-            fs.writeFileSync(path.join(process.cwd(), "newREADME.md"), newFile);
+            fs.writeFileSync(path.join(process.cwd(), "README.md"), newFile);
 });
