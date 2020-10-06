@@ -1,5 +1,7 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
+const generateReadMe = require("./utils/generateMarkdown");
+const path = require("path");
 
 inquirer
     .prompt([
@@ -24,7 +26,7 @@ inquirer
             name: "usage"
         },
         {
-            type: "input",
+            type: "list",
             message: "Choose a license for your project.",
             name: "license",
             choices: [
@@ -56,15 +58,7 @@ inquirer
 
         ]).then(answers => {
             const {title, description, installation, usage, license, contributing, tests, username, email} = answers;
-        
-    const readmeFile = '# ${title}';
 
-
-    fs.writeFile("README.md", readmeFile, data) {
-        if(err) {
-            console.log(err);
-        } else {
-            console.log("Success!");
-        }
-    };
+    const newFile = generateReadMe({...answers});
+            fs.writeFileSync(path.join(process.cwd(), "newREADME.md"), newFile);
 });
