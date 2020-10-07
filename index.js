@@ -37,8 +37,8 @@ inquirer
         },
         {
             type: "input",
-            message: "How can you contribute?",
-            name: "contributing"
+            message: "Who contributed to this project?",
+            name: "contributors"
         },
         {
             type: "input",

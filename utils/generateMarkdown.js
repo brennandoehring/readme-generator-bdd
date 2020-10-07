@@ -7,9 +7,11 @@ function generateMarkdown(data) {
   } else {
       badge = "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)";
   }
+
   return `
   # ${data.title}
   ${badge}
+
   ## Table of Contents
   - [Description] (#description)
   - [Installation] (#installation)
@@ -31,14 +33,16 @@ function generateMarkdown(data) {
   ## License
   This project is licensed under ${data.license}.
 
-  ## Contributing
-  ${data.contributing}
+  ## Contributors
+  ${data.contributors}
 
   ## Tests
   ${data.tests}
 
   ## Questions
   If you have any questions please contact me at ${data.email}. My github profile username is ${data.username}.
+
+  ## Screenshots/Videos/GIFs
   `;
 }
 
