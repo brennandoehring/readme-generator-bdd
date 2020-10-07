@@ -3,13 +3,13 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Table of Contents
-  - [Description] (https://github.com/brennandoehring/readme-generator-bdd#description)
-  - [Installation] (https://github.com/brennandoehring/readme-generator-bdd#installation)
-  - [Usage] (https://github.com/brennandoehring/readme-generator-bdd#usage)
-  - [License] (https://github.com/brennandoehring/readme-generator-bdd#license)
-  - [Contributors] (https://github.com/brennandoehring/readme-generator-bdd#contributors)
-  - [Tests] (https://github.com/brennandoehring/readme-generator-bdd#tests)
-  - [Questions] (https://github.com/brennandoehring/readme-generator-bdd#questions)
+  - [Description](https://github.com/brennandoehring/readme-generator-bdd#description)
+  - [Installation](https://github.com/brennandoehring/readme-generator-bdd#installation)
+  - [Usage](https://github.com/brennandoehring/readme-generator-bdd#usage)
+  - [License](https://github.com/brennandoehring/readme-generator-bdd#license)
+  - [Contributors](https://github.com/brennandoehring/readme-generator-bdd#contributors)
+  - [Tests](https://github.com/brennandoehring/readme-generator-bdd#tests)
+  - [Questions](https://github.com/brennandoehring/readme-generator-bdd#questions)
 
   ## Description 
   This project will speed up development by reducing the time it takes to create a well laid out README for a developer's project. Running this application using Node.js will generate a README for the user to use in their repository. This README for example, was created via this application.
