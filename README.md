@@ -33,7 +33,7 @@
   If you have any questions please contact me at nannerbdale@gmail.com. My github profile username is brennandoehring.
 
   ## Screenshots/Videos/GIFs
-  ![YouTube video of the project.](https://www.youtube.com/watch?v=sm4axz_Ft9Y)
+  [YouTube video of the project.](https://www.youtube.com/watch?v=sm4axz_Ft9Y)
   ![Screenshot](/assets/screenshot.png)
 
   
