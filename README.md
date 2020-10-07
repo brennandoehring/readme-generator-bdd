@@ -34,7 +34,7 @@
 
   ## Screenshots/Videos/GIFs
   ![YouTube video of the project.](https://www.youtube.com/watch?v=sm4axz_Ft9Y)
-  ![/assets/screenshot.png]
+  ![Screenshot](/assets/screenshot.png)
 
   
 
